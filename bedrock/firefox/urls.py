@@ -62,6 +62,8 @@ urlpatterns = (
     page('firefox/features/private-browsing', 'firefox/features/private-browsing.html',
          ftl_files=['firefox/features/shared', 'firefox/features/private-browsing']),
     page('firefox/features/safebrowser', 'firefox/features/safebrowser.html'),
+    page('firefox/features/translate', 'firefox/features/translate.html',
+         ftl_files=['firefox/features/shared', 'firefox/features/translate']),
 
     url(r'^firefox/ios/testflight/$', views.ios_testflight, name='firefox.ios.testflight'),
     page('firefox/mobile', 'firefox/mobile/index.html', ftl_files=['firefox/mobile']),
