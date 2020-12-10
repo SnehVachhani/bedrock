@@ -5,14 +5,13 @@
 $font-path: '/media/fonts';
 $image-path: '/media/protocol/img';
 
-@import "../../../protocol/css/includes/lib";
-@import "../../../protocol/css/components/hero";
-@import "../../../protocol/css/components/article";
-@import "../../../protocol/css/components/call-out";
+@import "../../protocol/css/includes/lib";
+@import "../../protocol/css/components/hero";
+@import "../../protocol/css/components/article";
+@import "../../protocol/css/components/call-out";
 
-.mzp-c-hero {
-    background: $color-purple-90;
-    color: #fff;
+.mzp-c-hero.mzp-t-dark {
+    background: $color-ink-80;
 
     @media #{$mq-lg} {
         margin-bottom: $layout-lg;
@@ -35,5 +34,5 @@ $image-path: '/media/protocol/img';
 // Call out
 
 .mzp-c-call-out-compact.mzp-t-dark {
-    background: $color-purple-90;
+    background: $color-ink-80;
 }

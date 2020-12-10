@@ -7,7 +7,7 @@
 # page title
 features-fingerprinting-what-is-fingerprinting-title = What is fingerprinting and why you should block it
 # page description
-features-fingerprinting-fingerprinting-is-a = Fingerprinting is a type of online tracking that’s more invasive than ordinary cookie-based tracking — that's why { -brand-name-firefox-browser } blocks it.
+features-fingerprinting-fingerprinting-is-a-desc = Fingerprinting is a type of online tracking that’s more invasive than ordinary cookie-based tracking — that's why { -brand-name-firefox-browser } blocks it.
 
 features-fingerprinting-firefox-blocks-fingerprinting = { -brand-name-firefox } blocks fingerprinting
 features-fingerprinting-ditch-the-sticky = Ditch the sticky ads following you around with { -brand-name-firefox } browser’s built-in fingerprinting blockers.
@@ -29,7 +29,6 @@ features-fingerprinting-fingerprinting-is-bad = Fingerprinting is bad for the we
 # $url_steadily (string) - link to https://webtransparency.cs.princeton.edu/webcensus/
 # $url_increased (string) - link to https://sensor-js.xyz/
 features-fingerprinting-the-practice-of = The practice of fingerprinting allows you to be <a {{ $url_tracked }}>tracked for months</a>, even when you clear your browser storage or use private browsing mode — disregarding clear indications from you that you don’t want to be tracked. Despite a near complete agreement between <a {{ $url_standards }}>standards</a> <a {{ $url_bodies }}>bodies</a> and <a {{ $url_browser }}>browser</a> <a {{ $url_vendors }}>vendors</a> that fingerprinting is <a {{ $url_harmful }}>harmful</a>, its use on the web <a {{ $url_has }}>has</a> <a {{ $url_steadily }}>steadily</a> <a {{ $url_increased }}>increased</a> over the past decade.
-features-fingerprinting-firefox-blocks-fingerprinting = { -brand-name-firefox } blocks fingerprinting
 # $url_details (string) - https://blog.mozilla.org/security/2020/01/07/firefox-72-fingerprinting/
 features-fingerprinting-the-latest-firefox = The latest { -brand-name-firefox } browser protects you against fingerprinting by blocking third-party requests to companies that are known to participate in fingerprinting. We’ve worked hard to enable this privacy protection while not breaking the websites you enjoy visiting. (Read more here, if you want the <a {{ $url_details }}>technical details</a>.)
 # $url_protections (string) - https://www.mozilla.org/firefox/privacy/products/

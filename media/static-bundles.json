@@ -672,7 +672,7 @@
     },
     {
       "files": [
-        "css/firefox/features/seo.scss"
+        "css/firefox/seo.scss"
       ],
       "name": "seo"
     },
